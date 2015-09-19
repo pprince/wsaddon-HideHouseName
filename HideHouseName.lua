@@ -1,7 +1,9 @@
------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------
 --              HideHouseName
 --              Copyright (c) J Teatime.
------------------------------------------------------------------------------------------------
+----------------------------------------------------------
+
 
 require "Window"
 
@@ -15,7 +17,7 @@ function HideHouseName:new(o)
     return o
 end
 
-function MyAddon:OnDependencyError(strDep, strError)
+function HideHouseName:OnDependencyError(strDep, strError)
     return true
 end
 
@@ -33,7 +35,7 @@ end
 function HideHouseName:OnLoad()
 end
 
-function onObscuredAddonVisible(strLoadedAddon)
+function HideHouseName:onObscuredAddonVisible(strLoadedAddon)
     Print("DEBUG #001")
     if strLoadedAddon == "HousingRemodel" then
         Print("DEBUG #002")
