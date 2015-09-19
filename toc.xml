@@ -1,0 +1,5 @@
+<?xml version="1.4" encoding="UTF-8"?>
+<Addon Author="J Teatime" APIVersion="11" Name="HideHouseName" Description="When in housing, the property name is shown at the top of the screen; hides that.">
+    <Script Name="LibApolloFixes-1.0.lua"/>
+    <Script Name="HideHouseName.lua"/>
+</Addon>
